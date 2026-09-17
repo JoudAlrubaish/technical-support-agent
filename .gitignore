@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights
+models/*
+!models/.gitkeep
+
+# Logs
+*.log
+
+# Langfuse / temporary files
+tmp/
+.cache/
