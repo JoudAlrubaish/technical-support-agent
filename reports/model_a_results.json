@@ -1,0 +1,50 @@
+{
+    "model": {
+        "base_model": "distilbert-base-uncased",
+        "huggingface_repository": "JoudAlrubaish/technical-support-intent-classifier",
+        "num_classes": 8,
+        "labels": [
+            "authentication",
+            "network",
+            "deployment",
+            "database",
+            "gpu",
+            "api",
+            "package",
+            "general"
+        ]
+    },
+    "dataset": {
+        "total_examples": 400,
+        "train_examples": 320,
+        "validation_examples": 40,
+        "test_examples": 40,
+        "examples_per_class": 50
+    },
+    "baseline": {
+        "accuracy": 0.125,
+        "precision_macro": 0.015625,
+        "recall_macro": 0.125,
+        "f1_macro": 0.027777777777777776
+    },
+    "fine_tuned_test": {
+        "accuracy": 0.95,
+        "precision_macro": 0.9583333333333334,
+        "recall_macro": 0.95,
+        "f1_macro": 0.9494949494949495
+    },
+    "best_validation": {
+        "macro_f1": 0.9142316017316017,
+        "checkpoint": "models/intent_classifier_exp2/checkpoint-80"
+    },
+    "quality_gate": {
+        "required_macro_f1": 0.8,
+        "actual_macro_f1": 0.9494949494949495,
+        "required_min_class_recall": 0.6,
+        "actual_min_class_recall": 0.8,
+        "passed": true
+    },
+    "errors": {
+        "total_test_errors": 2
+    }
+}

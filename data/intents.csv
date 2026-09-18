@@ -1,0 +1,401 @@
+text,label,label_id
+"Mack, my dedicated GPU shows low performance.",gpu,4
+Fix Azure API Management gateway CORS configuration.,api,5
+M365 user unable to reset password using Microsoft Authenticator.,authentication,0
+BSOD with VIDEO_TDR_FAILURE due to NVIDIA driver crash.,gpu,4
+"Mack, I need to disable Windows 11's firewall temporarily.",network,1
+Network IP conflict with network printer device,network,1
+Windows Update error 0x8024001A (Dependency failed).,package,6
+Resolve intermittent network connectivity issues on Windows 10/11.,network,1
+Discuss API management.,api,5
+Deploy a Terraform infrastructure.,deployment,2
+Explain how Mack monitors user authentication.,authentication,0
+M365 Azure Blob Storage CORS policy error during web app request.,general,7
+VPN client shows 'failed to connect to server' despite network connectivity.,network,1
+"Mack, I can't connect to the company network using my iPad with the VPN app.",network,1
+Write Kubernetes cluster configuration code.,deployment,2
+Windows 11 BitLocker recovery fails with 'Invalid password' error.,authentication,0
+Fix corrupted McAfee endpoint security logs.,api,5
+"Mack, my monitor's backlight is not working.",general,7
+NVIDIA driver blue screen after update,gpu,4
+Windows 11 activation status shows 'inGracePeriod' despite valid key,general,7
+"Mack, my network adapter is not compatible with my OS version.",network,1
+Domain user account locked out.,authentication,0
+Windows 7 to Windows 11 migration issues with activation and software compatibility.,general,7
+Resolve Azure Private Endpoint IP conflict.,api,5
+Outlook 2021 profile corruption causing login loop.,authentication,0
+Windows 10 update KB4562936 causes high disk usage.,general,7
+Optimize Docker container performance.,deployment,2
+"Mack, my external GPU enclosure isn't powering on.",gpu,4
+Explain how Mack verifies endpoint security compliance.,api,5
+Explain how Mack deploys Azure DevOps release management.,deployment,2
+"Outlook 2016 autodiscover fails, preventing profile creation.",general,7
+Help me understand NoSQL databases.,database,3
+Explain how Mack identifies misconfigured Azure Application Insights API keys.,api,5
+"Mack, my company's internal DNS server is not responding.",network,1
+Dell desktop won't recognize external GPU via Thunderbolt.,gpu,4
+Explain how Mack validates secure Kubernetes node configurations.,deployment,2
+Clear corrupted Kubernetes DaemonSet logs.,deployment,2
+"Mack, I can't install the company-approved Python version because of dependency conflicts.",package,6
+Address performance issues with corporate database queries.,database,3
+Fix inconsistent Kubernetes RBAC policy.,deployment,2
+Windows 11 update KB5005585 fails with error 0x800F0202 (Reboot).,general,7
+Explain how Mack detects failed DFS replication due to network latency.,network,1
+Explain how Mack detects network DoS attacks.,network,1
+MFA prompt not appearing on Android device.,authentication,0
+Explain how Mack identifies misconfigured firewall rules allowing outbound RDP.,network,1
+Resolve high I/O wait on storage array.,general,7
+Resolve stuck Kubernetes pod deployment.,deployment,2
+Resolve Azure AD Connect staging database synchronization error.,database,3
+Outlook email authentication failed.,authentication,0
+Design a clinical trial results database.,database,3
+Resolve failed Azure Active Directory authentication.,authentication,0
+Explain how Mack resolves Azure Databricks library dependency resolution errors.,package,6
+Resolve incorrect Windows Update driver package.,package,6
+"Mack, the network firewall is not allowing inbound connections from a specific IP.",network,1
+What is the process for requesting a new laptop?,general,7
+Resolve MFA registration failures.,authentication,0
+NVIDIA driver blue screen during game play.,gpu,4
+Describe Mack's integration with configuration management databases.,database,3
+Explain how Mack detects login performance issues.,authentication,0
+Optimize SQL Server query execution plan.,database,3
+Analyze this deployment rollback.,deployment,2
+Clear Symantec Endpoint Protection errors.,api,5
+Explain how Mack addresses endpoint encryption compliance.,api,5
+VPN client certificate expired and needs renewal.,network,1
+Address failed SCCM patch deployment.,deployment,2
+Cannot log in to Windows due to smart card certificate error.,authentication,0
+Outlook 2016 stuck on 'Loading Headers' for emails from specific senders.,general,7
+Resolve issues with Microsoft Endpoint Configuration Manager.,api,5
+Outlook 2021 stuck on 'Connecting to Microsoft Exchange' due to virtual machine resource constraints.,general,7
+"Mack, the shared network folder permissions are wrong.",network,1
+Explain how Mack detects application dependency conflicts.,package,6
+Fix corrupted Kubernetes deployment.,deployment,2
+Windows activation error 0xC0000218 (The trust relationship between the workstation and primary domain failed) during login.,authentication,0
+Resolve 'Event Viewer error 0x80070005' on login.,authentication,0
+"Mack, I need to update my corporate security software definitions.",general,7
+NVIDIA Container Toolkit driver not working.,gpu,4
+Driver for external GPU not working properly.,gpu,4
+Windows 10 feature update stuck at 10%,general,7
+Explain how Mack diagnoses SQL Server Agent proxy account failures.,database,3
+Fix failed Microsoft Endpoint Configuration Manager task sequence.,api,5
+Fix authentication failures for users with smart cards on Linux systems.,authentication,0
+Verifying device support for Windows Hello biometric authentication.,authentication,0
+NVIDIA driver causes display driver initialization failure.,gpu,4
+Fix failed software update via Microsoft Endpoint Manager.,api,5
+Resolve failed Grafana Tempo API documentation.,api,5
+Explain how Mack identifies network traffic filtering rule conflicts.,network,1
+"Mack, I can't install the latest NVIDIA driver on my Windows 10 system.",gpu,4
+Windows Update error 0x80244022 - Dependency failed.,package,6
+Explain how Mack detects misconfigured Kubernetes deployments.,deployment,2
+VPN tunnel established but no local network access.,network,1
+NVIDIA driver causing system crash during gaming.,gpu,4
+Diagnose failed software installation due to missing dependencies.,package,6
+Deploy Azure Bastion for secure RDP access.,deployment,2
+Lenovo workstation fails to detect external GPU enclosure.,gpu,4
+Optimize Exchange Server mailbox database performance.,database,3
+Cannot install Windows 10 May 2023 Update due to dependency on KB5000000.,package,6
+System restore not working on Windows 11,general,7
+"Mack, my USB drive is showing a corrupted file system.",general,7
+Lenovo workstation fails to detect external GPU after suspend.,gpu,4
+Resolve 'Network path not found' error.,network,1
+"Mack, my external GPU is too hot.",gpu,4
+Explain how Mack detects high cloud deployment costs.,deployment,2
+Resolve 'Error 0x80070540: The user account was not authenticated due to a token expiration error' during authentication.,authentication,0
+"Mack, my network shares are mapped incorrectly.",network,1
+Design a database view.,database,3
+Diagnose slow Active Directory authentication.,authentication,0
+Azure AD conditional access for MFA authentication error,authentication,0
+Fix SCCM software deployment timeout.,deployment,2
+Windows 10 activation error after hardware change.,general,7
+Fix corrupted SCCM software package installation logs.,package,6
+Configure Azure Spring Cloud application deployment.,deployment,2
+Windows service 'Remote Desktop Services' error 1060.,general,7
+Explain how Mack ensures endpoint data protection.,api,5
+"Mack, I can't install software because the system is missing a required component like DirectX.",general,7
+M365 Microsoft Defender ATP endpoint detection and response alerts.,api,5
+"Mack, my firewall is blocking a necessary application.",network,1
+Network adapter driver update failed.,network,1
+Configure Azure Application Insights API key.,api,5
+Fix corrupted SCCM OSD driver package.,package,6
+Explain how Mack monitors endpoint disk space.,api,5
+Explain how Mack evaluates SQL Server memory configuration.,database,3
+Resolve Kubernetes PodDisruptionBudget not enforced.,deployment,2
+"Mack, my corporate account login keeps timing out.",authentication,0
+Explain how Mack identifies broken service dependencies.,package,6
+Define Single Sign-On (SSO).,authentication,0
+Fix corrupted SQL Server transaction log file.,database,3
+Resolve blue screen error with stop code 0x0000001A (IRQL_UNEXPECTED_VALUE).,general,7
+"Mack, I keep getting an error about a missing 'vc_redist' package when installing software.",package,6
+Address SCCM patch management console error due to database corruption.,database,3
+NVIDIA driver compatibility with virtual desktop environment.,gpu,4
+Clear SCCM package distribution errors.,package,6
+"Mack, I can't install the latest Kubernetes version.",deployment,2
+M365 Microsoft Defender for Endpoint quarantining suspicious files detected by behavior monitoring.,api,5
+Fix corrupted SQL Server full-text index.,database,3
+Address SCCM patch deployment status reporting error.,deployment,2
+Explain how Mack identifies database backup retention policy violations.,database,3
+NVIDIA Container Toolkit driver conflict.,gpu,4
+M365 Microsoft Defender for Endpoint not updating definitions.,api,5
+NVIDIA graphics driver crashes upon startup.,gpu,4
+Resolve missing DLL dependency error.,package,6
+M365 Azure AD conditional access policy blocks all sign-ins.,authentication,0
+Resolve issue with failed SCCM software deployment.,deployment,2
+Resolve incorrect Azure Load Balancer probe endpoint.,api,5
+Fix corrupted SQL Server Agent job execution.,database,3
+Explain how Mack detects data theft from Azure SQL Database.,database,3
+Address 'SCCM Endpoint Protection Error' due to communication issues with the server.,api,5
+Optimize firewall rule performance bottleneck.,network,1
+Resolve failed Azure Functions deployment.,deployment,2
+Explain how Mack analyzes Exchange database recovery requirements.,database,3
+"Mack, I can't connect to the company file server.",general,7
+Explain how Mack handles Azure AD conditional access policies.,authentication,0
+"Mack, I can't install software because of a missing dependency.",package,6
+Explain how Mack manages Azure API Management gateways.,api,5
+Resolve 'Service not running' status for SQL Server Agent.,database,3
+What is your stance on authentication procedures?,authentication,0
+Explain how Mack identifies database backup job failures.,database,3
+How is your technology deployed?,deployment,2
+Fix corrupted Palo Alto firewall security policy rule.,network,1
+Windows Update for drivers fails to install due to dependency issues.,package,6
+Windows activation error 0xC004F010 for volume license.,general,7
+Outlook unable to download attachments,general,7
+"Mack, my external GPU enclosure isn't working.",gpu,4
+Explain how Mack identifies banking trojan API hooking.,api,5
+Explain how Mack identifies slow database backup verification.,database,3
+"Mack, I keep getting the 'Error 0x8024700D' Windows update error.",general,7
+"Mack, my company's network bandwidth usage is below expectations.",network,1
+Teams meeting screen sharing requires PIN from organizer.,general,7
+Fix PostgreSQL logical replication lag.,database,3
+Explain how Mack deploys security incident response outsourcing dashboards.,deployment,2
+NVIDIA driver blue screen error.,gpu,4
+Optimize VPN client error reporting.,network,1
+VPN client connection shows 'failed to establish secure channel' error.,network,1
+Fix inconsistent Kubernetes resource limits.,deployment,2
+Address firewall misconfiguration.,network,1
+Docker permission denied fix.,deployment,2
+Explain how Mack troubleshoots application dependency failures.,package,6
+"Mack, I can't connect to the VPN. What should I do?",network,1
+"Mack, my external GPU isn't being recognized.",gpu,4
+"Mack, I can't see my network drives in File Explorer.",network,1
+M365 user unable to authenticate after password change.,authentication,0
+"Mack, I keep getting 'Error 0x80070005' on login.",authentication,0
+Fix corrupted Azure Kubernetes Service cluster.,deployment,2
+Explain how Mack deploys security incident analysis dashboards.,deployment,2
+Explain how Mack analyzes database performance issues.,database,3
+VPN client shows 'Tunnel is down' due to IKEv2 proposal mismatch.,network,1
+"Mack, I can't connect to the company database server.",database,3
+"Mack, I can't install a specific application due to a missing dependency.",package,6
+USB driver for external GPU not working.,gpu,4
+Resolve SCCM OSD driver package conflicts.,package,6
+Design a database for a mobile app.,database,3
+Fix corrupted Kubernetes Deployment.,deployment,2
+Address failing IBM PowerVC deployment.,deployment,2
+Windows 11 file history backup fails with access denied.,general,7
+Explain how Mack detects high VPN bandwidth usage.,network,1
+Address SCCM OSD driver package installation error.,package,6
+Explain how Mack analyzes application dependency mapping.,package,6
+How does Mack detect application dependency failures?,package,6
+Windows activation error 0x80072528 during OOBE.,general,7
+Explain how Mack verifies application dependencies.,package,6
+Fix failed software update installation due to dependencies.,package,6
+Resolve intermittent database query timeout.,database,3
+Dell desktop won't detect an external GPU via Thunderbolt.,gpu,4
+Explain the basics of API security testing.,api,5
+NVIDIA GRID driver not working with Windows Server 2019.,gpu,4
+Explain how Mack detects cloud API version deprecation issues.,api,5
+Address Azure Virtual Machine extensions deployment issues.,deployment,2
+Cannot authenticate with domain after password change.,authentication,0
+M365 Azure AD Connect password sync error 0x8007052D,authentication,0
+Windows Update for driver not installing due to dependency.,package,6
+"Mack, I can't connect to the company's internal SQL server.",database,3
+NVIDIA PhysX driver not working with Windows 10.,gpu,4
+Explain how Mack deploys security incident response training.,deployment,2
+Optimize SQL Server database performance.,database,3
+Windows service not starting due to dependency issues.,package,6
+Explain how Mack handles endpoint threat intelligence.,api,5
+Fix SCCM patch deployment deadline issues.,deployment,2
+Outlook data file (PST/OST) too large causing performance issues.,general,7
+Explain how Mack checks for insecure API key management.,api,5
+"Mack, I keep getting a 'Device Protection' alert from Windows Security.",general,7
+Explain how Mack analyzes endpoint backup failures.,api,5
+Windows 10 update download stuck at 4.5GB for several days.,general,7
+Migrate on-premises SQL Server to Azure SQL Database.,database,3
+Explain how Mack identifies endpoint inventory discrepancies.,api,5
+Explain how Mack detects slow cloud deployment rollbacks.,deployment,2
+Explain how Mack finds orphaned cloud database instances.,database,3
+Configure Azure Load Balancer for SQL Server failover.,database,3
+Optimize SQL Server index optimization.,database,3
+Windows 10/11 activation status shows 'Not Genuine' after clean install.,general,7
+Resolve domain account lockout.,authentication,0
+NVIDIA NVMe driver not installing on UEFI system.,gpu,4
+Address SCCM application deployment error.,deployment,2
+Nvidia graphics driver error,gpu,4
+NVIDIA GeForce driver compatibility with CUDA 12.2.,gpu,4
+"Mack, I can't access my mapped drives on login.",authentication,0
+Windows 11 'Windows Update for Business' deployment not reaching target devices.,deployment,2
+Configure Windows Storage Spaces for file server workloads.,general,7
+NVIDIA GRID driver not working with Windows 11.,gpu,4
+Windows 11 update download stuck indefinitely at 0% progress.,general,7
+Resolve 'Certificate trust error' for internal web application.,general,7
+"Mack, my monitor is flickering and not displaying properly.",general,7
+Windows 10 activation bypass error during upgrade.,general,7
+Explain how Mack deploys data loss prevention (DLP) tools.,deployment,2
+Explain how Mack identifies misconfigured DNS.,network,1
+"Mack, I cannot install a specific Java version due to dependency conflicts.",package,6
+"Mack, my corporate account is showing an expired password warning.",authentication,0
+Fix failed VPN client installation.,network,1
+"Mack, my touch keyboard doesn't recognize my handwriting.",general,7
+Resolve stuck SCCM patch deployment.,deployment,2
+NVIDIA vGPU driver not compatible with virtualization platform.,gpu,4
+Explain how Mack detects malicious endpoint activity.,api,5
+Resolve NetApp ONTAP Select Deploy for Azure.,deployment,2
+NVIDIA driver installation failed.,gpu,4
+Clear failed PostgreSQL database connection.,database,3
+Resolve HTTP 403 Forbidden error.,api,5
+Resolve domain authentication failures post-upgrade.,authentication,0
+Dell monitor 'eDP' port fails with error code 0xA0001 during startup.,general,7
+Resolve failed Azure Virtual Network VPN tunnel.,network,1
+Address slow Hyper-V virtual machine network I/O.,network,1
+Windows 0 10 Task Manager shows high GPU usage by unknown process.,gpu,4
+Fix corrupted SQL Server Agent proxy account.,database,3
+Explain how Mack detects inefficient Azure SQL Database settings.,database,3
+Explain how Mack handles MFA bypass detection.,authentication,0
+Explain how Mack handles user login failures.,authentication,0
+Resolve MFA registration failures for users.,authentication,0
+Explain how Mack analyzes database security hardening.,database,3
+Fix SCCM patch deployment to multiple sites.,deployment,2
+Resolve SCCM OSD task sequence dependency issues.,package,6
+Explain how Mack ensures endpoint detection effectiveness.,api,5
+NVIDIA driver conflict with virtual machine monitor.,gpu,4
+Address incorrect VPN client event ID 2006 errors.,network,1
+Fix intermittent network connectivity on Windows.,network,1
+Lenovo HX G10 gaming laptop GPU driver crashes during gaming.,gpu,4
+Design a REST API endpoint.,api,5
+Windows Update stuck on 'Downloading package' for large cumulative update.,package,6
+Configure high availability for a PostgreSQL database cluster.,database,3
+M365 Conditional Access for Microsoft  365 apps not enforced.,authentication,0
+Address failed software installation due to missing dependencies.,package,6
+NVIDIA driver crashes when playing games.,gpu,4
+M365 SharePoint Online page returns HTTP 503 Service Unavailable.,api,5
+Windows service dependency issue with Print Spooler.,package,6
+"Mack, my computer is stuck on the login screen.",authentication,0
+Explain how Mack detects unauthorized API calls.,api,5
+"Mack, my HP printer shows 'Replace cartridge' even when full.",general,7
+Explain how Axero deploys security incident response automation.,deployment,2
+NVIDIA driver update reverting to previous version automatically.,gpu,4
+Explain how Mack validates application dependency integrity.,package,6
+NVIDIA PhysX driver not working with games.,gpu,4
+Explain how Mack evaluates SQL Server collation settings.,database,3
+VPN client connects but DNS resolution fails for internal domains.,network,1
+Windows 10 Task Manager shows high GPU usage by explorer.exe.,gpu,4
+Resolve intermittent VPN client disconnection.,network,1
+M365 Azure AD Connect password sync error 125470158.,authentication,0
+Explain how Mack diagnoses authentication failures.,authentication,0
+Resolve 'SCCM Endpoint Protection Not Communicating' issue.,api,5
+"Mack, I can't install the latest NVIDIA driver because of a missing file.",gpu,4
+Windows 11 event viewer shows 'Certificate Request Failed' errors.,general,7
+Address failed authentication requests for GraphQL APIs.,authentication,0
+Explain how Mack verifies application dependency resolution.,package,6
+"Mack, my docking station isn't supporting my GPU.",gpu,4
+Resolve Microsoft Intune compliance status 'Not Configured' for Endpoint Protection.,api,5
+What is Mack's opinion on endpoint security?,api,5
+Resolve corrupted PostgreSQL data type definitions.,database,3
+Laptop won't boot past the manufacturer logo.,general,7
+Address SCCM patch deployment validation issue.,deployment,2
+"Mack, I can't connect to the internal Wi-Fi network at the office.",network,1
+Explain how Mack identifies failed software container deployment.,deployment,2
+Address Kubernetes pod restart loop.,deployment,2
+Address Active Directory authentication failures.,authentication,0
+"Mack, my VPN connection drops periodically.",network,1
+Explain how Mack validates application dependency mapping.,package,6
+M365 Azure AD Connect password sync fails with event ID 244 error.,authentication,0
+"Mack, my database connection is failing.",database,3
+Unable to authenticate to Windows via smart card.,authentication,0
+Fix corrupted user profile corruption on Windows Server 2030 (hypothetical).,general,7
+"Windows Update error 0x80072749 - Error during installation, dependency missing.",package,6
+"Mack, my external GPU's temperature is too high.",gpu,4
+Explain how Mack monitors endpoint threat detection.,api,5
+Explain how Mack validates application dependency configurations.,package,6
+"Mack, my dedicated GPU shows 'Maxed Out' in Task Manager.",gpu,4
+AMD driver crashes when using CUDA for machine learning tasks.,gpu,4
+NVIDIA driver preventing SLI configuration from working.,gpu,4
+Address AWS Lambda function VPC endpoint access issues.,api,5
+"Mack, I can't remember my Windows password. What should I do?",general,7
+Explain how Mack analyzes endpoint detection effectiveness.,api,5
+Windows 11 update '22H2' requires restart but keeps failing.,general,7
+Windows.old folder not deleting after upgrade.,general,7
+Windows 11 update 'Media Features' package fails repeatedly.,package,6
+Resolve Microsoft Defender for Endpoint device configuration error.,api,5
+Fix corrupted NVIDIA display driver.,gpu,4
+Configure automatic nightly database backups for MySQL.,database,3
+Windows 10 stuck on spinning dots during login with TPM error.,authentication,0
+Reinstall corrupted NVIDIA display driver.,gpu,4
+Explain how Mack validates database backup retention policies.,database,3
+"Windows Update error 0x80072749 - Error installing update, dependency issue possible.",package,6
+Explain how Mack evaluates endpoint security effectiveness.,api,5
+Fix Docker container error.,deployment,2
+"Mack, I need to configure a VPN for remote access using SSTP.",network,1
+M365 Conditional Access policy blocks access for some users.,authentication,0
+"Mack, the company's Azure AD Conditional Access policies are not being enforced correctly.",authentication,0
+Address high wireless network signal attenuation.,network,1
+NVIDIA driver causing display driver crash.,gpu,4
+Windows 11 update KB5005602 causes the system to freeze on login.,authentication,0
+Clear failed Slack API webhook execution.,api,5
+Explain how Mack identifies slow network file access from remote location.,network,1
+Enable BitLocker with TPM and TPM Key Package Protection.,package,6
+Address firewall blocking of specific applications.,network,1
+"Mack, I can't install the company's custom application because of a missing dependency.",package,6
+Explain how Mack validates endpoint hardening configurations.,api,5
+NVIDIA driver blue screen crash.,gpu,4
+Fix Active Directory Kerberos authentication errors.,authentication,0
+Explain how Mack detects Azure Databricks library version conflicts.,package,6
+Resolve corrupted Palo Alto firewall VPN tunnel establishment.,network,1
+Explain how Mack detects malicious API key usage.,api,5
+Address high disk I/O on database server.,database,3
+"Mack, I need to install a specific Python package with dependencies.",package,6
+Outlook 'Rules' not applying to emails with specific keywords.,general,7
+Describe your support for enterprise device deployment.,deployment,2
+Explain how Mack monitors application dependency security.,package,6
+Dell thin client shows 'No Signal' when connected to external monitor.,general,7
+Explain how Mack monitors application dependency drift.,package,6
+NVIDIA graphics driver blue screen upon startup.,gpu,4
+Explain how Mack identifies misconfigured firewall rules for SaaS applications.,network,1
+Check DNS recursive query handling.,network,1
+Optimize slow SQL Server performance.,database,3
+Optimize Azure SQL Database for large transactions.,database,3
+Resolve 'Error 0x80070540' during software installation.,general,7
+Design a database view with joins.,database,3
+Ex->Explain how Mack diagnoses database deadlocks.,database,3
+Resolve intermittent network connectivity in branch office.,network,1
+Fix failed user login to Azure AD.,authentication,0
+Windows Update error 0x80240017 - dependency issue.,package,6
+Lenovo workstation won't recognize external GPU enclosure.,gpu,4
+Enable Windows Defender ATP endpoint detection.,api,5
+Fix authentication error after domain password change.,authentication,0
+Cannot install Windows feature because of missing package.,package,6
+Optimize performance of database query server.,database,3
+Resolve Azure Private Endpoint subnet issues.,api,5
+Fix 'Error 0x80070005' on SQL Server update.,database,3
+Explain how Mack detects endpoint security issues.,api,5
+Windows Update error 0x80240017 - Dependency failed.,package,6
+Fix Azure API Management developer portal access.,api,5
+Windows 11 update KB5006263 fails with 'package dependency verification failed' error.,package,6
+Configure Azure Kubernetes Service (AKS) for multi-tenant environments.,deployment,2
+Clear pending Microsoft Store for Retail deployment.,deployment,2
+Design a database model.,database,3
+Epson printer shows 'Paper Jam' falsely detected.,general,7
+What is the procedure for resetting a user's network password?,network,1
+"Mack, my keyboard keys are repeating uncontrollably.",general,7
+"Mack, the corporate firewall is blocking outbound traffic on port 53.",network,1
+Explain how Mack checks application dependency timeouts.,package,6
+Lenovo HX workstation GPU thermal throttle warning.,gpu,4
+Explain how Mack resolves Azure Kubernetes Service RBAC access denied.,deployment,2
+Teams meeting screen sharing not working for Windows 10 users,general,7
+Resolve 'Kerberos Authentication' failure for user login.,authentication,0
+Explain how Mack identifies inefficient Exchange database maintenance tasks.,database,3
+Resolve 'VPN concentrator CPU usage high' alert.,network,1
+Deploy Azure Functions for serverless workloads.,deployment,2
+Resolve 'Endpoint Protection Signature Update Failed' alert.,api,5
+Windows Update error 0x80240007 (Dependency not found).,package,6
+Configure Azure DevOps for infrastructure as code deployment.,deployment,2
