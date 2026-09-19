@@ -21,17 +21,7 @@ from sklearn.metrics.pairwise import (
 # =========================================================
 
 DB_PATH = "/tmp/mock_support.db"
-UPLOADS_PATH = "data/uploads"
-
-os.makedirs(
-    "/app/state",
-    exist_ok=True,
-)
-
-os.makedirs(
-    "data",
-    exist_ok=True,
-)
+UPLOADS_PATH = "/tmp/uploads"
 
 os.makedirs(
     UPLOADS_PATH,
