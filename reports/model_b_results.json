@@ -1,0 +1,30 @@
+{
+    "model": "distilbert-base-uncased",
+    "dataset": {
+        "unique_it_issues": 33,
+        "total_qa_pairs": 66,
+        "train_pairs": 52,
+        "validation_pairs": 6,
+        "test_pairs": 8
+    },
+    "baseline": {
+        "exact_match": 0.0,
+        "token_f1": 0.41622284878863824
+    },
+    "experiment_2": {
+        "epochs": 8,
+        "exact_match": 0.5,
+        "token_f1": 0.6331196581196581
+    },
+    "experiment_3": {
+        "epochs": 15,
+        "best_validation_loss": 0.07575536519289017,
+        "exact_match": 1.0,
+        "token_f1": 1.0
+    },
+    "quality_gate": {
+        "required_em": 0.65,
+        "required_f1": 0.8,
+        "passed": true
+    }
+}

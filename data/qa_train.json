@@ -1,0 +1,464 @@
+[
+  {
+    "issue":"AWS instance not starting",
+    "question":"What are the symptoms of AWS instance not starting?",
+    "context":"Issue: AWS instance not starting\nSymptoms: Instance stuck in 'pending' state\nSolution Steps: Check instance status in AWS console, review security group settings, restart instance",
+    "answer_text":"Instance stuck in 'pending' state",
+    "answer_start":43
+  },
+  {
+    "issue":"AWS instance not starting",
+    "question":"How can AWS instance not starting be resolved?",
+    "context":"Issue: AWS instance not starting\nSymptoms: Instance stuck in 'pending' state\nSolution Steps: Check instance status in AWS console, review security group settings, restart instance",
+    "answer_text":"Check instance status in AWS console, review security group settings, restart instance",
+    "answer_start":93
+  },
+  {
+    "issue":"Azure VM connection timeout",
+    "question":"What are the symptoms of Azure VM connection timeout?",
+    "context":"Issue: Azure VM connection timeout\nSymptoms: Unable to connect to Azure VM\nSolution Steps: Verify public IP, ensure correct port is open, check NSG rules",
+    "answer_text":"Unable to connect to Azure VM",
+    "answer_start":45
+  },
+  {
+    "issue":"Azure VM connection timeout",
+    "question":"How can Azure VM connection timeout be resolved?",
+    "context":"Issue: Azure VM connection timeout\nSymptoms: Unable to connect to Azure VM\nSolution Steps: Verify public IP, ensure correct port is open, check NSG rules",
+    "answer_text":"Verify public IP, ensure correct port is open, check NSG rules",
+    "answer_start":91
+  },
+  {
+    "issue":"Google Cloud storage access error",
+    "question":"What are the symptoms of Google Cloud storage access error?",
+    "context":"Issue: Google Cloud storage access error\nSymptoms: 403 Forbidden when accessing bucket\nSolution Steps: Check IAM permissions, verify bucket policies, authenticate properly",
+    "answer_text":"403 Forbidden when accessing bucket",
+    "answer_start":51
+  },
+  {
+    "issue":"Google Cloud storage access error",
+    "question":"How can Google Cloud storage access error be resolved?",
+    "context":"Issue: Google Cloud storage access error\nSymptoms: 403 Forbidden when accessing bucket\nSolution Steps: Check IAM permissions, verify bucket policies, authenticate properly",
+    "answer_text":"Check IAM permissions, verify bucket policies, authenticate properly",
+    "answer_start":103
+  },
+  {
+    "issue":"Android app crashing",
+    "question":"What are the symptoms of Android app crashing?",
+    "context":"Issue: Android app crashing\nSymptoms: App closes unexpectedly after launch\nSolution Steps: Clear app cache, reinstall app, update Android OS",
+    "answer_text":"App closes unexpectedly after launch",
+    "answer_start":38
+  },
+  {
+    "issue":"Android app crashing",
+    "question":"How can Android app crashing be resolved?",
+    "context":"Issue: Android app crashing\nSymptoms: App closes unexpectedly after launch\nSolution Steps: Clear app cache, reinstall app, update Android OS",
+    "answer_text":"Clear app cache, reinstall app, update Android OS",
+    "answer_start":91
+  },
+  {
+    "issue":"iPhone not charging",
+    "question":"What are the symptoms of iPhone not charging?",
+    "context":"Issue: iPhone not charging\nSymptoms: Device not charging despite being plugged in\nSolution Steps: Clean charging port, use a different cable, restart iPhone",
+    "answer_text":"Device not charging despite being plugged in",
+    "answer_start":37
+  },
+  {
+    "issue":"iPhone not charging",
+    "question":"How can iPhone not charging be resolved?",
+    "context":"Issue: iPhone not charging\nSymptoms: Device not charging despite being plugged in\nSolution Steps: Clean charging port, use a different cable, restart iPhone",
+    "answer_text":"Clean charging port, use a different cable, restart iPhone",
+    "answer_start":98
+  },
+  {
+    "issue":"Bluetooth not pairing",
+    "question":"What are the symptoms of Bluetooth not pairing?",
+    "context":"Issue: Bluetooth not pairing\nSymptoms: Unable to connect to devices\nSolution Steps: Restart Bluetooth, unpair and repair device, reset network settings",
+    "answer_text":"Unable to connect to devices",
+    "answer_start":39
+  },
+  {
+    "issue":"Bluetooth not pairing",
+    "question":"How can Bluetooth not pairing be resolved?",
+    "context":"Issue: Bluetooth not pairing\nSymptoms: Unable to connect to devices\nSolution Steps: Restart Bluetooth, unpair and repair device, reset network settings",
+    "answer_text":"Restart Bluetooth, unpair and repair device, reset network settings",
+    "answer_start":84
+  },
+  {
+    "issue":"Antivirus not updating",
+    "question":"What are the symptoms of Antivirus not updating?",
+    "context":"Issue: Antivirus not updating\nSymptoms: Definitions out of date\nSolution Steps: Check internet connection, restart antivirus program, reinstall software",
+    "answer_text":"Definitions out of date",
+    "answer_start":40
+  },
+  {
+    "issue":"Antivirus not updating",
+    "question":"How can Antivirus not updating be resolved?",
+    "context":"Issue: Antivirus not updating\nSymptoms: Definitions out of date\nSolution Steps: Check internet connection, restart antivirus program, reinstall software",
+    "answer_text":"Check internet connection, restart antivirus program, reinstall software",
+    "answer_start":80
+  },
+  {
+    "issue":"Phishing email detected",
+    "question":"What are the symptoms of Phishing email detected?",
+    "context":"Issue: Phishing email detected\nSymptoms: Suspicious email with malicious links\nSolution Steps: Report email, do not click links, enable email filtering",
+    "answer_text":"Suspicious email with malicious links",
+    "answer_start":41
+  },
+  {
+    "issue":"Phishing email detected",
+    "question":"How can Phishing email detected be resolved?",
+    "context":"Issue: Phishing email detected\nSymptoms: Suspicious email with malicious links\nSolution Steps: Report email, do not click links, enable email filtering",
+    "answer_text":"Report email, do not click links, enable email filtering",
+    "answer_start":95
+  },
+  {
+    "issue":"Firewall blocking app",
+    "question":"What are the symptoms of Firewall blocking app?",
+    "context":"Issue: Firewall blocking app\nSymptoms: App cannot access the internet\nSolution Steps: Check firewall rules, create exception for the app, restart firewall service",
+    "answer_text":"App cannot access the internet",
+    "answer_start":39
+  },
+  {
+    "issue":"Firewall blocking app",
+    "question":"How can Firewall blocking app be resolved?",
+    "context":"Issue: Firewall blocking app\nSymptoms: App cannot access the internet\nSolution Steps: Check firewall rules, create exception for the app, restart firewall service",
+    "answer_text":"Check firewall rules, create exception for the app, restart firewall service",
+    "answer_start":86
+  },
+  {
+    "issue":"Wi-Fi not connecting",
+    "question":"What are the symptoms of Wi-Fi not connecting?",
+    "context":"Issue: Wi-Fi not connecting\nSymptoms: No internet, error messages\nSolution Steps: Restart router, reset adapter, check driver settings",
+    "answer_text":"No internet, error messages",
+    "answer_start":38
+  },
+  {
+    "issue":"Wi-Fi not connecting",
+    "question":"How can Wi-Fi not connecting be resolved?",
+    "context":"Issue: Wi-Fi not connecting\nSymptoms: No internet, error messages\nSolution Steps: Restart router, reset adapter, check driver settings",
+    "answer_text":"Restart router, reset adapter, check driver settings",
+    "answer_start":82
+  },
+  {
+    "issue":"Slow internet",
+    "question":"What are the symptoms of Slow internet?",
+    "context":"Issue: Slow internet\nSymptoms: High latency, buffering\nSolution Steps: Check router position, reset DNS, contact ISP",
+    "answer_text":"High latency, buffering",
+    "answer_start":31
+  },
+  {
+    "issue":"Slow internet",
+    "question":"How can Slow internet be resolved?",
+    "context":"Issue: Slow internet\nSymptoms: High latency, buffering\nSolution Steps: Check router position, reset DNS, contact ISP",
+    "answer_text":"Check router position, reset DNS, contact ISP",
+    "answer_start":71
+  },
+  {
+    "issue":"Ethernet cable not detected",
+    "question":"What are the symptoms of Ethernet cable not detected?",
+    "context":"Issue: Ethernet cable not detected\nSymptoms: No connection via wired network\nSolution Steps: Check cable connection, update network drivers",
+    "answer_text":"No connection via wired network",
+    "answer_start":45
+  },
+  {
+    "issue":"Ethernet cable not detected",
+    "question":"How can Ethernet cable not detected be resolved?",
+    "context":"Issue: Ethernet cable not detected\nSymptoms: No connection via wired network\nSolution Steps: Check cable connection, update network drivers",
+    "answer_text":"Check cable connection, update network drivers",
+    "answer_start":93
+  },
+  {
+    "issue":"VPN not connecting",
+    "question":"What are the symptoms of VPN not connecting?",
+    "context":"Issue: VPN not connecting\nSymptoms: Cannot establish a secure connection\nSolution Steps: Check VPN credentials, restart VPN service, check firewall settings",
+    "answer_text":"Cannot establish a secure connection",
+    "answer_start":36
+  },
+  {
+    "issue":"VPN not connecting",
+    "question":"How can VPN not connecting be resolved?",
+    "context":"Issue: VPN not connecting\nSymptoms: Cannot establish a secure connection\nSolution Steps: Check VPN credentials, restart VPN service, check firewall settings",
+    "answer_text":"Check VPN credentials, restart VPN service, check firewall settings",
+    "answer_start":89
+  },
+  {
+    "issue":"Printer not responding",
+    "question":"What are the symptoms of Printer not responding?",
+    "context":"Issue: Printer not responding\nSymptoms: No print, offline status\nSolution Steps: Check cables, reinstall drivers, restart printer",
+    "answer_text":"No print, offline status",
+    "answer_start":40
+  },
+  {
+    "issue":"Printer not responding",
+    "question":"How can Printer not responding be resolved?",
+    "context":"Issue: Printer not responding\nSymptoms: No print, offline status\nSolution Steps: Check cables, reinstall drivers, restart printer",
+    "answer_text":"Check cables, reinstall drivers, restart printer",
+    "answer_start":81
+  },
+  {
+    "issue":"Monitor flickering",
+    "question":"What are the symptoms of Monitor flickering?",
+    "context":"Issue: Monitor flickering\nSymptoms: Screen flashes, inconsistent brightness\nSolution Steps: Check cable connections, update graphics drivers, adjust refresh rate",
+    "answer_text":"Screen flashes, inconsistent brightness",
+    "answer_start":36
+  },
+  {
+    "issue":"Monitor flickering",
+    "question":"How can Monitor flickering be resolved?",
+    "context":"Issue: Monitor flickering\nSymptoms: Screen flashes, inconsistent brightness\nSolution Steps: Check cable connections, update graphics drivers, adjust refresh rate",
+    "answer_text":"Check cable connections, update graphics drivers, adjust refresh rate",
+    "answer_start":92
+  },
+  {
+    "issue":"Laptop overheating",
+    "question":"What are the symptoms of Laptop overheating?",
+    "context":"Issue: Laptop overheating\nSymptoms: Fan running loud, sudden shutdowns\nSolution Steps: Clean vents, apply thermal paste, use a cooling pad",
+    "answer_text":"Fan running loud, sudden shutdowns",
+    "answer_start":36
+  },
+  {
+    "issue":"Laptop overheating",
+    "question":"How can Laptop overheating be resolved?",
+    "context":"Issue: Laptop overheating\nSymptoms: Fan running loud, sudden shutdowns\nSolution Steps: Clean vents, apply thermal paste, use a cooling pad",
+    "answer_text":"Clean vents, apply thermal paste, use a cooling pad",
+    "answer_start":87
+  },
+  {
+    "issue":"Keyboard keys not responding",
+    "question":"What are the symptoms of Keyboard keys not responding?",
+    "context":"Issue: Keyboard keys not responding\nSymptoms: Some or all keys not functioning\nSolution Steps: Clean keyboard, check connections, reinstall keyboard drivers",
+    "answer_text":"Some or all keys not functioning",
+    "answer_start":46
+  },
+  {
+    "issue":"Keyboard keys not responding",
+    "question":"How can Keyboard keys not responding be resolved?",
+    "context":"Issue: Keyboard keys not responding\nSymptoms: Some or all keys not functioning\nSolution Steps: Clean keyboard, check connections, reinstall keyboard drivers",
+    "answer_text":"Clean keyboard, check connections, reinstall keyboard drivers",
+    "answer_start":95
+  },
+  {
+    "issue":"Browser not loading pages",
+    "question":"What are the symptoms of Browser not loading pages?",
+    "context":"Issue: Browser not loading pages\nSymptoms: Blank pages, 'site can't be reached' errors\nSolution Steps: Clear cache, disable extensions, reset browser settings",
+    "answer_text":"Blank pages, 'site can't be reached' errors",
+    "answer_start":43
+  },
+  {
+    "issue":"Browser not loading pages",
+    "question":"How can Browser not loading pages be resolved?",
+    "context":"Issue: Browser not loading pages\nSymptoms: Blank pages, 'site can't be reached' errors\nSolution Steps: Clear cache, disable extensions, reset browser settings",
+    "answer_text":"Clear cache, disable extensions, reset browser settings",
+    "answer_start":103
+  },
+  {
+    "issue":"Program won't install",
+    "question":"What are the symptoms of Program won't install?",
+    "context":"Issue: Program won't install\nSymptoms: Installation hangs or fails\nSolution Steps: Run installer as admin, check disk space, disable antivirus temporarily",
+    "answer_text":"Installation hangs or fails",
+    "answer_start":39
+  },
+  {
+    "issue":"Program won't install",
+    "question":"How can Program won't install be resolved?",
+    "context":"Issue: Program won't install\nSymptoms: Installation hangs or fails\nSolution Steps: Run installer as admin, check disk space, disable antivirus temporarily",
+    "answer_text":"Run installer as admin, check disk space, disable antivirus temporarily",
+    "answer_start":83
+  },
+  {
+    "issue":"Application not updating",
+    "question":"What are the symptoms of Application not updating?",
+    "context":"Issue: Application not updating\nSymptoms: Update fails or stalls\nSolution Steps: Check internet connection, restart application, reinstall application",
+    "answer_text":"Update fails or stalls",
+    "answer_start":42
+  },
+  {
+    "issue":"Application not updating",
+    "question":"How can Application not updating be resolved?",
+    "context":"Issue: Application not updating\nSymptoms: Update fails or stalls\nSolution Steps: Check internet connection, restart application, reinstall application",
+    "answer_text":"Check internet connection, restart application, reinstall application",
+    "answer_start":81
+  },
+  {
+    "issue":"Blue screen error",
+    "question":"What are the symptoms of Blue screen error?",
+    "context":"Issue: Blue screen error\nSymptoms: System crash with error code\nSolution Steps: Run memory diagnostics, check for driver conflicts, update OS",
+    "answer_text":"System crash with error code",
+    "answer_start":35
+  },
+  {
+    "issue":"Blue screen error",
+    "question":"How can Blue screen error be resolved?",
+    "context":"Issue: Blue screen error\nSymptoms: System crash with error code\nSolution Steps: Run memory diagnostics, check for driver conflicts, update OS",
+    "answer_text":"Run memory diagnostics, check for driver conflicts, update OS",
+    "answer_start":80
+  },
+  {
+    "issue":"System running slow",
+    "question":"What are the symptoms of System running slow?",
+    "context":"Issue: System running slow\nSymptoms: Lagging, high CPU usage\nSolution Steps: Close unnecessary programs, upgrade RAM, run disk cleanup",
+    "answer_text":"Lagging, high CPU usage",
+    "answer_start":37
+  },
+  {
+    "issue":"System running slow",
+    "question":"How can System running slow be resolved?",
+    "context":"Issue: System running slow\nSymptoms: Lagging, high CPU usage\nSolution Steps: Close unnecessary programs, upgrade RAM, run disk cleanup",
+    "answer_text":"Close unnecessary programs, upgrade RAM, run disk cleanup",
+    "answer_start":77
+  },
+  {
+    "issue":"Disk space running out",
+    "question":"What are the symptoms of Disk space running out?",
+    "context":"Issue: Disk space running out\nSymptoms: Low storage warnings, slow performance\nSolution Steps: Delete temporary files, uninstall unused programs, move files to external storage",
+    "answer_text":"Low storage warnings, slow performance",
+    "answer_start":40
+  },
+  {
+    "issue":"Disk space running out",
+    "question":"How can Disk space running out be resolved?",
+    "context":"Issue: Disk space running out\nSymptoms: Low storage warnings, slow performance\nSolution Steps: Delete temporary files, uninstall unused programs, move files to external storage",
+    "answer_text":"Delete temporary files, uninstall unused programs, move files to external storage",
+    "answer_start":95
+  },
+  {
+    "issue":"OS not booting",
+    "question":"What are the symptoms of OS not booting?",
+    "context":"Issue: OS not booting\nSymptoms: Black screen, boot loop\nSolution Steps: Run startup repair, check BIOS settings, reinstall OS",
+    "answer_text":"Black screen, boot loop",
+    "answer_start":32
+  },
+  {
+    "issue":"OS not booting",
+    "question":"How can OS not booting be resolved?",
+    "context":"Issue: OS not booting\nSymptoms: Black screen, boot loop\nSolution Steps: Run startup repair, check BIOS settings, reinstall OS",
+    "answer_text":"Run startup repair, check BIOS settings, reinstall OS",
+    "answer_start":72
+  },
+  {
+    "issue":"Battery draining quickly",
+    "question":"What are the symptoms of Battery draining quickly?",
+    "context":"Issue: Battery draining quickly\nSymptoms: Short battery life, overheating\nSolution Steps: Reduce screen brightness, close background apps, replace battery if needed",
+    "answer_text":"Short battery life, overheating",
+    "answer_start":42
+  },
+  {
+    "issue":"Battery draining quickly",
+    "question":"How can Battery draining quickly be resolved?",
+    "context":"Issue: Battery draining quickly\nSymptoms: Short battery life, overheating\nSolution Steps: Reduce screen brightness, close background apps, replace battery if needed",
+    "answer_text":"Reduce screen brightness, close background apps, replace battery if needed",
+    "answer_start":90
+  },
+  {
+    "issue":"MacBook not charging",
+    "question":"What are the symptoms of MacBook not charging?",
+    "context":"Issue: MacBook not charging\nSymptoms: Battery not charging despite being plugged in\nSolution Steps: Check charger and port, reset SMC, update macOS",
+    "answer_text":"Battery not charging despite being plugged in",
+    "answer_start":38
+  },
+  {
+    "issue":"MacBook not charging",
+    "question":"How can MacBook not charging be resolved?",
+    "context":"Issue: MacBook not charging\nSymptoms: Battery not charging despite being plugged in\nSolution Steps: Check charger and port, reset SMC, update macOS",
+    "answer_text":"Check charger and port, reset SMC, update macOS",
+    "answer_start":100
+  },
+  {
+    "issue":"AirDrop not working",
+    "question":"What are the symptoms of AirDrop not working?",
+    "context":"Issue: AirDrop not working\nSymptoms: Devices not visible or unable to send files\nSolution Steps: Check Bluetooth and Wi-Fi, ensure devices are discoverable, restart devices",
+    "answer_text":"Devices not visible or unable to send files",
+    "answer_start":37
+  },
+  {
+    "issue":"AirDrop not working",
+    "question":"How can AirDrop not working be resolved?",
+    "context":"Issue: AirDrop not working\nSymptoms: Devices not visible or unable to send files\nSolution Steps: Check Bluetooth and Wi-Fi, ensure devices are discoverable, restart devices",
+    "answer_text":"Check Bluetooth and Wi-Fi, ensure devices are discoverable, restart devices",
+    "answer_start":97
+  },
+  {
+    "issue":"Spinning beach ball",
+    "question":"What are the symptoms of Spinning beach ball?",
+    "context":"Issue: Spinning beach ball\nSymptoms: System unresponsive with spinning cursor\nSolution Steps: Force quit unresponsive apps, check Activity Monitor, restart Mac",
+    "answer_text":"System unresponsive with spinning cursor",
+    "answer_start":37
+  },
+  {
+    "issue":"Spinning beach ball",
+    "question":"How can Spinning beach ball be resolved?",
+    "context":"Issue: Spinning beach ball\nSymptoms: System unresponsive with spinning cursor\nSolution Steps: Force quit unresponsive apps, check Activity Monitor, restart Mac",
+    "answer_text":"Force quit unresponsive apps, check Activity Monitor, restart Mac",
+    "answer_start":94
+  },
+  {
+    "issue":"Mac not detecting external display",
+    "question":"What are the symptoms of Mac not detecting external display?",
+    "context":"Issue: Mac not detecting external display\nSymptoms: No output on external monitor\nSolution Steps: Check cables, update macOS, reset PRAM and SMC",
+    "answer_text":"No output on external monitor",
+    "answer_start":52
+  },
+  {
+    "issue":"Mac not detecting external display",
+    "question":"How can Mac not detecting external display be resolved?",
+    "context":"Issue: Mac not detecting external display\nSymptoms: No output on external monitor\nSolution Steps: Check cables, update macOS, reset PRAM and SMC",
+    "answer_text":"Check cables, update macOS, reset PRAM and SMC",
+    "answer_start":98
+  },
+  {
+    "issue":"Word not responding",
+    "question":"What are the symptoms of Word not responding?",
+    "context":"Issue: Word not responding\nSymptoms: Application freezes or crashes\nSolution Steps: Restart Word, open in Safe Mode, disable add-ins, repair Office",
+    "answer_text":"Application freezes or crashes",
+    "answer_start":37
+  },
+  {
+    "issue":"Word not responding",
+    "question":"How can Word not responding be resolved?",
+    "context":"Issue: Word not responding\nSymptoms: Application freezes or crashes\nSolution Steps: Restart Word, open in Safe Mode, disable add-ins, repair Office",
+    "answer_text":"Restart Word, open in Safe Mode, disable add-ins, repair Office",
+    "answer_start":84
+  },
+  {
+    "issue":"Excel formula error",
+    "question":"What are the symptoms of Excel formula error?",
+    "context":"Issue: Excel formula error\nSymptoms: Incorrect or unexpected formula results\nSolution Steps: Check formula syntax, ensure correct cell references, enable iterative calculation if needed",
+    "answer_text":"Incorrect or unexpected formula results",
+    "answer_start":37
+  },
+  {
+    "issue":"Excel formula error",
+    "question":"How can Excel formula error be resolved?",
+    "context":"Issue: Excel formula error\nSymptoms: Incorrect or unexpected formula results\nSolution Steps: Check formula syntax, ensure correct cell references, enable iterative calculation if needed",
+    "answer_text":"Check formula syntax, ensure correct cell references, enable iterative calculation if needed",
+    "answer_start":93
+  },
+  {
+    "issue":"Outlook not sending emails",
+    "question":"What are the symptoms of Outlook not sending emails?",
+    "context":"Issue: Outlook not sending emails\nSymptoms: Emails stuck in Outbox\nSolution Steps: Check internet connection, clear Outbox, repair email account settings",
+    "answer_text":"Emails stuck in Outbox",
+    "answer_start":44
+  },
+  {
+    "issue":"Outlook not sending emails",
+    "question":"How can Outlook not sending emails be resolved?",
+    "context":"Issue: Outlook not sending emails\nSymptoms: Emails stuck in Outbox\nSolution Steps: Check internet connection, clear Outbox, repair email account settings",
+    "answer_text":"Check internet connection, clear Outbox, repair email account settings",
+    "answer_start":83
+  },
+  {
+    "issue":"PowerPoint presentation not saving",
+    "question":"What are the symptoms of PowerPoint presentation not saving?",
+    "context":"Issue: PowerPoint presentation not saving\nSymptoms: Error message when saving\nSolution Steps: Check file permissions, save to a different location, repair Office installation",
+    "answer_text":"Error message when saving",
+    "answer_start":52
+  },
+  {
+    "issue":"PowerPoint presentation not saving",
+    "question":"How can PowerPoint presentation not saving be resolved?",
+    "context":"Issue: PowerPoint presentation not saving\nSymptoms: Error message when saving\nSolution Steps: Check file permissions, save to a different location, repair Office installation",
+    "answer_text":"Check file permissions, save to a different location, repair Office installation",
+    "answer_start":94
+  }
+]
