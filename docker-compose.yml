@@ -1,37 +1,26 @@
 services:
-
   support-agent:
     build: .
     container_name: technical-support-agent
-
     env_file:
       - .env
-
     ports:
       - "8000:8000"
-
     volumes:
       - hf_cache:/app/.cache/huggingface
       - ./data:/app/data
-
     restart: unless-stopped
-
 
   open-webui:
     image: ghcr.io/open-webui/open-webui:main
     container_name: open-webui
-
     ports:
-      - "3000:8080"
-
+      - "3001:8080"
     volumes:
       - open_webui_data:/app/backend/data
-
     depends_on:
       - support-agent
-
     restart: unless-stopped
-
 
 volumes:
   hf_cache:
