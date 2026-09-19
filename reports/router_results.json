@@ -1,0 +1,25 @@
+{
+  "evaluation_set": {
+    "total_cases": 12,
+    "note": "Metrics are specific to this small router evaluation set."
+  },
+  "rules_classifier": {
+    "accuracy": 0.916667,
+    "macro_f1": 0.914286,
+    "avg_latency_ms": 27.984232
+  },
+  "llm_router": {
+    "accuracy": 0.25,
+    "macro_f1": 0.115385,
+    "avg_latency_ms": 802.324021,
+    "json_valid_rate": 1.0
+  },
+  "hybrid_router": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "avg_latency_ms": 137.488559,
+    "fallback_rate": 0.166667,
+    "confidence_threshold": 0.25
+  },
+  "selected_production_router": "hybrid"
+}
