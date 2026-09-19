@@ -4,6 +4,8 @@ torch
 transformers
 datasets
 peft
+langchain
+huggingface_hub
 trl
 accelerate
 bitsandbytes; platform_system == "Linux"
@@ -15,3 +17,4 @@ scikit-learn
 pandas
 numpy
 psycopg[binary]
+

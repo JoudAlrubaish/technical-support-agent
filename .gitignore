@@ -21,4 +21,6 @@ models/*
 
 # Langfuse / temporary files
 tmp/
-.cache/
+.cache/data/mock_support.db
+
+data/mock_support.db

@@ -1,0 +1,72 @@
+{
+  "total_tests": 13,
+  "passed": 13,
+  "failed": 0,
+  "tests": [
+    {
+      "test": "Documentation QA route",
+      "status": "PASS",
+      "details": "{'user_message': 'According to the documentation, which port should be exposed?', 'route': 'qa', 'router_source': 'hybrid_rule', 'intent': '', 'confidence': 1.0, 'context': [{'source_id': 'kb-deployment-01', 'title': 'Deployment Guide', 'text': 'The technical support API runs on port 8000 by default. Expose port 8000 when deploying the FastAPI service.', 'score': 0.1809886718639355}], 'answer': 'Expose port 8000 when deploying the FastAPI service', 'trace_id': '90c65796-a8ef-4fde-9774-f0976a169701', 'router_latency_ms': 0.0035830307751893997}"
+    },
+    {
+      "test": "Documentation grounded answer",
+      "status": "PASS",
+      "details": "Expose port 8000 when deploying the FastAPI service"
+    },
+    {
+      "test": "Database issue routes to tools",
+      "status": "PASS",
+      "details": "{'user_message': 'My PostgreSQL connection pool is at 98 percent and requests time out.', 'route': 'tools', 'router_source': 'hybrid_classifier', 'intent': 'network', 'confidence': 0.526414155960083, 'context': [{'source_id': 'kb-database-01', 'title': 'Database Connection Pool', 'text': 'A database connection pool above 90 percent utilization may cause request delays or timeouts. Inspect active connections and application health.', 'score': 0.22497108810579064}], 'tool_results': [{'issue_type': 'network', 'service': 'database', 'symptom': 'My PostgreSQL connection pool is at 98 percent and requests time out.', 'steps': [{'step': 'health_check', 'result': {'service': 'database', 'status': 'degraded', 'connections_pct': 91}}, {'step': 'ticket_search', 'result': {'query': 'network', 'tickets': [], 'count': 0}}, {'step': 'knowledge_base_search', 'result': {'query': 'My PostgreSQL connection pool is at 98 percent and requests time out.', 'passages': [{'source_id': 'kb-database-01', 'title': 'Database Connection Pool', 'text': 'A database connection pool above 90 percent utilization may cause request delays or timeouts. Inspect active connections and application health.', 'score': 0.22497108810579064}, {'source_id': 'kb-qlora-01', 'title': 'QLoRA', 'text': 'QLoRA is a parameter-efficient fine-tuning method for large language models. It keeps the pretrained model quantized to 4-bit and trains LoRA adapters, reducing memory requirements while preserving strong model performance.', 'score': 0.0}, {'source_id': 'kb-api-01', 'title': 'API 503 Troubleshooting', 'text': 'HTTP 503 indicates that the service is temporarily unavailable. Check API health, database connectivity, and deployment status.', 'score': 0.0}]}}], 'requires_escalation': False}], 'answer': 'The diagnostic check shows that the database service is currently degraded. Current connection utilization is 91%. A database connection pool above 90 percent utilization may cause request delays or timeouts. Inspect active connections and application health. If the problem continues after these checks, escalate the issue to human support.', 'trace_id': '103f985a-3c4f-4978-8406-e8bfaa416028', 'router_latency_ms': 328.91179202124476}"
+    },
+    {
+      "test": "Database diagnostics used",
+      "status": "PASS",
+      "details": "{'user_message': 'My PostgreSQL connection pool is at 98 percent and requests time out.', 'route': 'tools', 'router_source': 'hybrid_classifier', 'intent': 'network', 'confidence': 0.526414155960083, 'context': [{'source_id': 'kb-database-01', 'title': 'Database Connection Pool', 'text': 'A database connection pool above 90 percent utilization may cause request delays or timeouts. Inspect active connections and application health.', 'score': 0.22497108810579064}], 'tool_results': [{'issue_type': 'network', 'service': 'database', 'symptom': 'My PostgreSQL connection pool is at 98 percent and requests time out.', 'steps': [{'step': 'health_check', 'result': {'service': 'database', 'status': 'degraded', 'connections_pct': 91}}, {'step': 'ticket_search', 'result': {'query': 'network', 'tickets': [], 'count': 0}}, {'step': 'knowledge_base_search', 'result': {'query': 'My PostgreSQL connection pool is at 98 percent and requests time out.', 'passages': [{'source_id': 'kb-database-01', 'title': 'Database Connection Pool', 'text': 'A database connection pool above 90 percent utilization may cause request delays or timeouts. Inspect active connections and application health.', 'score': 0.22497108810579064}, {'source_id': 'kb-qlora-01', 'title': 'QLoRA', 'text': 'QLoRA is a parameter-efficient fine-tuning method for large language models. It keeps the pretrained model quantized to 4-bit and trains LoRA adapters, reducing memory requirements while preserving strong model performance.', 'score': 0.0}, {'source_id': 'kb-api-01', 'title': 'API 503 Troubleshooting', 'text': 'HTTP 503 indicates that the service is temporarily unavailable. Check API health, database connectivity, and deployment status.', 'score': 0.0}]}}], 'requires_escalation': False}], 'answer': 'The diagnostic check shows that the database service is currently degraded. Current connection utilization is 91%. A database connection pool above 90 percent utilization may cause request delays or timeouts. Inspect active connections and application health. If the problem continues after these checks, escalate the issue to human support.', 'trace_id': '103f985a-3c4f-4978-8406-e8bfaa416028', 'router_latency_ms': 328.91179202124476}"
+    },
+    {
+      "test": "Database grounded response",
+      "status": "PASS",
+      "details": "The diagnostic check shows that the database service is currently degraded. Current connection utilization is 91%. A database connection pool above 90 percent utilization may cause request delays or timeouts. Inspect active connections and application health. If the problem continues after these checks, escalate the issue to human support."
+    },
+    {
+      "test": "QLoRA support route",
+      "status": "PASS",
+      "details": "{'user_message': 'What is QLoRA?', 'route': 'support_specialist', 'router_source': 'hybrid_llm', 'intent': 'api', 'confidence': 0.20300042629241943, 'context': [{'source_id': 'kb-qlora-01', 'title': 'QLoRA', 'text': 'QLoRA is a parameter-efficient fine-tuning method for large language models. It keeps the pretrained model quantized to 4-bit and trains LoRA adapters, reducing memory requirements while preserving strong model performance.', 'score': 0.16184079192607512}], 'answer': 'QLoRA is a parameter-efficient fine-tuning method for large language models. It keeps the pretrained model quantized to 4-bit and trains LoRA adapters, reducing memory requirements while preserving strong model performance.', 'trace_id': '626ea443-cbdc-475a-a0ed-21fb76166801', 'router_latency_ms': 716.9645000249147}"
+    },
+    {
+      "test": "QLoRA uses LLM fallback",
+      "status": "PASS",
+      "details": "{'user_message': 'What is QLoRA?', 'route': 'support_specialist', 'router_source': 'hybrid_llm', 'intent': 'api', 'confidence': 0.20300042629241943, 'context': [{'source_id': 'kb-qlora-01', 'title': 'QLoRA', 'text': 'QLoRA is a parameter-efficient fine-tuning method for large language models. It keeps the pretrained model quantized to 4-bit and trains LoRA adapters, reducing memory requirements while preserving strong model performance.', 'score': 0.16184079192607512}], 'answer': 'QLoRA is a parameter-efficient fine-tuning method for large language models. It keeps the pretrained model quantized to 4-bit and trains LoRA adapters, reducing memory requirements while preserving strong model performance.', 'trace_id': '626ea443-cbdc-475a-a0ed-21fb76166801', 'router_latency_ms': 716.9645000249147}"
+    },
+    {
+      "test": "QLoRA regression grounding",
+      "status": "PASS",
+      "details": "QLoRA is a parameter-efficient fine-tuning method for large language models. It keeps the pretrained model quantized to 4-bit and trains LoRA adapters, reducing memory requirements while preserving strong model performance."
+    },
+    {
+      "test": "Corruption routes to escalation",
+      "status": "PASS",
+      "details": "{'user_message': 'Production database corruption is suspected.', 'route': 'escalate', 'router_source': 'hybrid_rule', 'intent': '', 'confidence': 1.0, 'answer': 'This issue has been escalated to human support. Ticket ID: 5', 'escalated': True, 'trace_id': '4fb31164-a477-4ef1-96ed-f7c3bbcef54a', 'router_latency_ms': 0.002374988980591297}"
+    },
+    {
+      "test": "Human escalation created",
+      "status": "PASS",
+      "details": "{'user_message': 'Production database corruption is suspected.', 'route': 'escalate', 'router_source': 'hybrid_rule', 'intent': '', 'confidence': 1.0, 'answer': 'This issue has been escalated to human support. Ticket ID: 5', 'escalated': True, 'trace_id': '4fb31164-a477-4ef1-96ed-f7c3bbcef54a', 'router_latency_ms': 0.002374988980591297}"
+    },
+    {
+      "test": "Escalation ticket created",
+      "status": "PASS",
+      "details": "This issue has been escalated to human support. Ticket ID: 5"
+    },
+    {
+      "test": "Explicit uncertainty behavior",
+      "status": "PASS",
+      "details": "I cannot confirm the exact cause with the available information. The most common causes of slowdown in Windows include:\n\n1. Unclosed Task Manager window. Open Task Manager on desktop. Click \"Close\" at top right corner. If task remains running, try unclicking \"Open Task\".\n\n2. Unauthorized access from remote user account. Check if user accounts are being used remotely. Try logging into user account with administrator privileges. If still unavailable, open Task Manager again.\n\n3. Unpatched security vulnerability. Check for suspicious file system updates. Run antivirus scan against all drives. If still unknown, restart machine.\n\n4. Un"
+    },
+    {
+      "test": "Health tool structured response",
+      "status": "PASS",
+      "details": "{'service': 'api', 'status': 'healthy', 'latency_ms': 42}"
+    }
+  ]
+}
