@@ -8,7 +8,6 @@ services:
       - "8000:8000"
     volumes:
       - hf_cache:/app/.cache/huggingface
-      - support_data:/app/state
     restart: unless-stopped
 
   open-webui:
@@ -24,5 +23,4 @@ services:
 
 volumes:
   hf_cache:
-  support_data:
   open_webui_data:
