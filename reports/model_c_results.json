@@ -1,0 +1,54 @@
+{
+  "model": "Model C - Technical Support Specialist",
+  "base_model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "fine_tuning": "LoRA + SFT",
+  "huggingface_repo": "JoudAlrubaish/technical-support-agent-model-c",
+  "baseline": {
+    "validation_loss": 3.2272,
+    "perplexity": 25.2089,
+    "rouge_l": 0.1363
+  },
+  "exp2": {
+    "epochs": 10,
+    "validation_loss": 1.4185,
+    "perplexity": 4.1311,
+    "rouge_l": 0.1962
+  },
+  "exp3": {
+    "epochs": 15,
+    "validation_loss": 1.0825,
+    "perplexity": 2.9521,
+    "rouge_l": 0.4322,
+    "golden_set_pass_rate": 0.5
+  },
+  "exp4": {
+    "type": "targeted_behavior_refinement",
+    "golden_set_pass_rate": 0.6667
+  },
+  "exp5": {
+    "type": "targeted_behavior_refinement",
+    "golden_set_pass_rate": 0.6667
+  },
+  "exp6_final": {
+    "type": "balanced_behavioral_refinement",
+    "validation_loss": 1.078374,
+    "perplexity": 2.939895,
+    "rouge_l": 0.442182,
+    "golden_set_pass_rate": 0.8333
+  },
+  "golden_set": {
+    "total_cases": 6,
+    "passed": 5,
+    "failed": 1,
+    "passed_behaviors": [
+      "troubleshooting",
+      "network",
+      "escalation",
+      "tool_synthesis",
+      "security_escalation"
+    ],
+    "remaining_weakness": "explicit uncertainty handling"
+  },
+  "final_selection": "Exp 6",
+  "final_note": "Exp 6 achieved the best overall balance between general model performance and behavioral alignment."
+}
